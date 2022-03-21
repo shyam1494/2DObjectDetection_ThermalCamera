@@ -1,0 +1,8 @@
+
+train: /content/Flir/train
+val: /content/Flir/val
+nc: 15
+names :['Person','Bike','Car','Motorcycle','Bus','Train','Truck','Traffic light','Fire Hydrant','Street Sign','Dog',
+          'Skateboard','Stroller','Scooter','Other Vehicle']
+
+
