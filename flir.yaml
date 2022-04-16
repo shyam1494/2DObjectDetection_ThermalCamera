@@ -1,8 +1,8 @@
 
-train: /content/FLIR_YOLOR/Flir/train
-val: /content/FLIR_YOLOR/Flir/val
+train: /content/FLIR_YOLOR/Flir_f1/images/train
+val: /content/FLIR_YOLOR/Flir_f1/images/train
 nc: 15
 names :['Person','Bike','Car','Motorcycle','Bus','Train','Truck','Traffic light','Fire Hydrant','Street Sign','Dog',
           'Skateboard','Stroller','Scooter','Other Vehicle']
 
-
+D:\2nd Semester\Vehicle Testing and Validation\Cloned\FLIR_YOLOR\flir_f1\images
