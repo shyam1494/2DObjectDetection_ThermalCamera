@@ -1,5 +1,12 @@
 train: /content/FLIR_YOLOR/flir_f1/images/train
 val: /content/FLIR_YOLOR/flir_f1/images/val
-nc: 15
-names: ['Person','Bike','Car','Motorcycle','Bus','Train','Truck','Traffic light','Fire Hydrant','Street Sign','Dog',
-          'Skateboard','Stroller','Scooter','Other Vehicle']
+# Classes
+nc: 80  # number of classes
+names: ['person', 'bike', 'car', 'motor', 'dummy', 'bus', 'train', 'truck', 'dummy', 'light', 
+        'hydrant', 'sign', 'dummy', 'dummy', 'dummy', 'dummy', 'dog', 'dummy', 'dummy', 'dummy', 
+        'dummy', 'dummy', 'dummy', 'dummy', 'dummy', 'dummy', 'dummy', 'dummy', 'dummy', 'dummy', 
+        'dummy', 'dummy', 'dummy', 'dummy', 'dummy', 'dummy', 'skateboard', 'dummy', 'dummy', 'dummy', 
+        'dummy', 'dummy', 'dummy', 'dummy', 'dummy', 'dummy', 'dummy', 'dummy', 'dummy', 'dummy', 'dummy', 
+        'dummy', 'dummy', 'dummy', 'dummy', 'dummy', 'dummy', 'dummy', 'dummy', 'dummy', 'dummy', 'dummy', 
+        'dummy', 'dummy', 'dummy', 'dummy', 'dummy', 'dummy', 'dummy', 'dummy', 'dummy', 'dummy', 'stroller', 
+        'dummy', 'dummy', 'dummy','scooter', 'dummy', 'other vehicle', 'dummy']  # class names
