@@ -1,5 +1,6 @@
 train: /content/FLIR_YOLOR/flir_f1/images/train
 val: /content/FLIR_YOLOR/flir_f1/images/val
+test: /content/FLIR_YOLOR/flir_f1/images/test
 # Classes
 nc: 80  # number of classes
 names: ['person', 'bike', 'car', 'motor', 'dummy', 'bus', 'train', 'truck', 'dummy', 'light', 
