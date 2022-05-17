@@ -29,4 +29,4 @@ YOLOR TRAINING :
 Trained the model from scratch without any pretrained models and model parameters were retained . I have used the NVIDIA environment which provides 4 TESLA T4 cores. Becuase of rescource limitation , can able to train only for 10 epochs .
 EPOCHS : 10 
 
-Results are available in resource folder 
+Results are available in results folder 
